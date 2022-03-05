@@ -1,6 +1,6 @@
 
 pipeline {
-    agent {label 'wind'}
+    agent {label 'agent1'}
     stages {
         stage('Example Build') {
             steps {
