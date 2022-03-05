@@ -1,6 +1,6 @@
 
 pipeline {
-    agent any
+    agent {label 'wind'}
     stages {
         stage('Example Build') {
             steps {
